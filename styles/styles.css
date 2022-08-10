@@ -13,7 +13,6 @@ body {
 }
 
 .container {
-  height: 550px;
   width: 1000px;
   margin: 35px auto;
   border-radius: 10px;
@@ -78,6 +77,23 @@ body {
   font-size: 20px;
   cursor: pointer;
 }
+.container .right-content button {
+  margin: 25px 0 25px 330px;
+  height: 40px;
+  width: 140px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  background: red;
+  cursor: pointer;
+  color: white;
+  font-weight: bolder;
+  font-size: 15px;
+  box-shadow: 0 0 5px #333;
+}
+.container .right-content button:hover {
+  opacity: 0.7;
+}
 .container .text-color {
   margin: 50px 0 0 20px;
   color: red;
@@ -89,4 +105,13 @@ body {
   height: 80px;
   width: 495px;
   overflow: hidden;
+}
+.container .small-images img {
+  height: 100%;
+  opacity: 0.5;
+  cursor: pointer;
+  margin-left: 3px;
+}
+.container .small-images .active {
+  opacity: 1;
 }/*# sourceMappingURL=styles.css.map */

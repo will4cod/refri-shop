@@ -15,7 +15,6 @@ body{
 }
 
 .container{
-    height: 550px;
     width: 1000px;
     margin: 35px auto;
     border-radius: 10px;
@@ -90,6 +89,25 @@ body{
             font-size: 20px;
             cursor: pointer;
         }
+
+        button{
+            margin: 25px 0 25px 330px;
+            height: 40px;
+            width: 140px;
+            border-radius: 5px;
+            border: none;
+            outline: none;
+            background: red;
+            cursor: pointer;
+            color: white;
+            font-weight: bolder;
+            font-size: 15px;
+            box-shadow: 0 0 5px #333;
+
+            &:hover{
+                opacity: .7;
+            }
+        }
     }
 
     .text-color{
@@ -104,5 +122,16 @@ body{
         height: 80px;
         width: calc(500px - 5px);
         overflow: hidden;
+
+        img{
+            height: 100%;
+            opacity: .5;
+            cursor: pointer;
+            margin-left: 3px;
+        }
+
+        .active{
+            opacity: 1;
+        }
     }
 }
