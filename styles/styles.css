@@ -38,6 +38,7 @@ body {
 .container .left-content h2 {
   font-size: 45px;
   color: #333;
+  padding-bottom: 10px;
 }
 .container .left-content p {
   margin-left: 10px;
@@ -45,7 +46,7 @@ body {
 .container .right-content {
   float: right;
   line-height: 25px;
-  margin-top: 65px;
+  margin-top: 100px;
   text-align: justify;
   color: #595959;
 }
@@ -78,7 +79,7 @@ body {
   cursor: pointer;
 }
 .container .right-content button {
-  margin: 25px 0 25px 330px;
+  margin: 25px 0 25px 400px;
   height: 40px;
   width: 140px;
   border-radius: 5px;
